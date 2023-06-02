@@ -1,14 +1,20 @@
 # FTP-er
 
-Ftp-er is a python script for making ftp servers. 
+FTP-er is a Python script for creating FTP servers.
 
-## For what it can be used
-You can use it for file transferring files , CTF-s and whatever you want to, but if you use it for illegal stuff i am not having any responsibility.
-## How to use it
-The program will say what it wants like parameters.
-## For committers
-Anybody who collaborates and helps with this code will be part of AlghØr1thm. There we will make security and pen testing tools in a public repository. I will later probably make a site for it. Idk
-## Warning!!!
-Always be careful not to be hacked by forgetting about a sever you ran and people accessing your files or injecting malware!!!
-## Just to know
-I got most of the code online just customizing and adding user input. Its made only for linux and i dont know is it going to be used on windows because nobody plays CTF-s on windows.
+## Purpose
+FTP-er can be used for file transfers, CTFs, and various other purposes. However, please note that if you use it for illegal activities, I do not assume any responsibility.
+
+## Usage
+The program will prompt you for the required parameters during execution.
+
+## Contribution
+Anyone who collaborates and contributes to this code will become a part of AlghØr1thm. We will develop security and penetration testing tools in a public repository. In the future, I may create a website for this project, but that i currently dont know.
+
+## Warning!
+Always exercise caution to prevent unauthorized access to your files or the injection of malware. Ensure that you do not forget about any servers you have running.
+
+## Additional Information
+Most of the code used in this project was sourced online. I customized it and added user input. Currently, the script is designed for Linux, and its compatibility with Windows is uncertain, as CTFs are typically not played on windows.
+
+
