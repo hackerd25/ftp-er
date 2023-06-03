@@ -7,8 +7,11 @@ def user():
 def ip():
     ip = input("Local computer ip(It is going to crash if it doesnt work): ")
     return ip
+def password(passd):
+    password = input("Password for " + passd + ": ")
+    return password
 def portchecker():
-    port = int(input("Give a free ip higher than 1023(If you dont know just write 2121): "))
+    port = int(input("Give a free port higher than 1023(If you dont know just write 2121): "))
     if port < 1023 or port > 65535:
         print("Not in the limits.Try again: ")
         portchecker()
@@ -17,7 +20,7 @@ FTP_HOST = ip()
 FTP_PORT = portchecker()
 
 FTP_USER = user()
-FTP_PASSWORD = "2"
+FTP_PASSWORD = password(FTP_USER)
 FTP_DIRECTORY = "/home/hackerd25/Documents/Visual Studio Code Projects/ftp-er/test"
 
 def main():
