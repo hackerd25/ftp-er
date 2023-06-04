@@ -1,6 +1,14 @@
 from pyftpdlib.authorizers import DummyAuthorizer
 from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
+from pathlib import Path
+def pathchecker():
+    path = input("The path of the ftp server: ")
+    dir = Path(path)
+    if dir.is_dir() == 0:
+        print("Path doesnt exist.")
+        pathchecker()
+    return path
 def user():
     username = input("Type the name of the username that the server allows: ")
     return username
@@ -21,7 +29,7 @@ FTP_PORT = portchecker()
 
 FTP_USER = user()
 FTP_PASSWORD = password(FTP_USER)
-FTP_DIRECTORY = "/home/hackerd25/Documents/Visual Studio Code Projects/ftp-er/test"
+FTP_DIRECTORY = pathchecker()
 
 def main():
     authorizer = DummyAuthorizer()
