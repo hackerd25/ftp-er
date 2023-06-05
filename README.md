@@ -1,10 +1,3 @@
-______ ___________                
-|  ___|_   _| ___ \               
-| |_    | | | |_/ /_____ ___ _ __ 
-|  _|   | | |  __/______/ _ \ '__|
-| |     | | | |        |  __/ |
-\_|     \_/ \_|         \___|_|   
-                 made by hackerd25
 # FTP-er
 
 FTP-er is a Python script for creating FTP servers.
