@@ -2,6 +2,14 @@ from pyftpdlib.authorizers import DummyAuthorizer
 from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
 from pathlib import Path
+
+print("______ ___________")
+print("|  ___|_   _| ___ \               ")
+print("| |_    | | | |_/ /_____ ___ _ __ ")
+print("|  _|   | | |  __/______/ _ \ '__|")
+print("| |     | | | |        |  __/ |   ")
+print("\_|     \_/ \_|         \___|_|   ")
+print("                 made by hackerd25\n")
 def pathchecker():
     path = input("The path of the ftp server: ")
     dir = Path(path)
